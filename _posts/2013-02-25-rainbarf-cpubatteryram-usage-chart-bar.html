@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Rainbarf: A CPU/Battery/RAM Usage Chart Bar For Tmux'
+date: '2013-02-25T19:16:00.001+01:00'
+author: bbarcesaj
+tags:
+- Ubuntu
+- CLI
+- Utility
+modified_time: '2013-02-25T19:16:12.280+01:00'
+thumbnail: http://1.bp.blogspot.com/-lm1TskAr-xw/USuV70qnXLI/AAAAAAAABxM/agXUBXhSf6U/s72-c/System-Stats-Chart-Bar-Tmux-Tootips.png
+blogger_id: tag:blogger.com,1999:blog-8900647196714997279.post-2579741465079932535
+blogger_orig_url: http://www.tootips.com/2013/02/rainbarf-cpubatteryram-usage-chart-bar.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-lm1TskAr-xw/USuV70qnXLI/AAAAAAAABxM/agXUBXhSf6U/s1600/System-Stats-Chart-Bar-Tmux-Tootips.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="85" src="http://1.bp.blogspot.com/-lm1TskAr-xw/USuV70qnXLI/AAAAAAAABxM/agXUBXhSf6U/s400/System-Stats-Chart-Bar-Tmux-Tootips.png" width="400" /></a></div><br /><div style="text-align: justify;">Rainbarf is a small command-line utility that displays fancy system resource stats in the Tmux status line. It supports the following system resources:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"></div><ul><li>CPU</li><li>RAM</li><li>Battery<a name='more'></a></li></ul><h2>Installation:</h2><div>To install Rainbarf, run the following commands in a terminal:</div><div><br /><div class="code-wrapper"><pre class="code-container"><code>git clone https://github.com/creaktive/rainbarf.git<br />cd rainbarf<br />perl Build.PL<br />./Build test<br />./Build install</code></pre></div><br /><div style="text-align: justify;">To enable rainbarf for Tmux, you need to add the following line to your <code class="Highlight">~/.tmux.conf</code> file:</div></div><br /><pre class="Highlight"><code>set -g status-right '#(rainbarf --battery --bolt --bright)'</code></pre><br /><div style="text-align: justify;">Save the file, then issue the following command:</div><br /><div class="code-wrapper"><pre class="code-container"><code>tmux source-file ~/.tmux.conf</code></pre></div><br /><div style="text-align: justify;">Rainbarf offers various configuration options such as displaying the battery remaining time. To explore these options, please visit the project page&nbsp;<a href="https://github.com/creaktive/rainbarf" target="_blank">@GitHub</a>.<span id="goog_772112795"></span><span id="goog_772112796"></span><a href="http://www.blogger.com/"></a></div></div>

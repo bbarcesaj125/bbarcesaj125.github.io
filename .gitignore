@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+blog-06-17-2020.xml

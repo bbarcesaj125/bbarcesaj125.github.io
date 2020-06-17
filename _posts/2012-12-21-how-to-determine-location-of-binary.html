@@ -1,0 +1,16 @@
+---
+layout: post
+title: How To Determine The Location Of A Binary Application In Ubuntu/Linux
+date: '2012-12-21T18:41:00.001+01:00'
+author: bbarcesaj
+tags:
+- Ubuntu
+- Short-tip
+- CLI
+modified_time: '2012-12-21T18:48:45.950+01:00'
+thumbnail: http://4.bp.blogspot.com/-vNK8NPulOeM/UNSWHvQ5u5I/AAAAAAAABJE/2BxZhTMhdPg/s72-c/Which-Command-Tootips.png
+blogger_id: tag:blogger.com,1999:blog-8900647196714997279.post-3888460015147850484
+blogger_orig_url: http://www.tootips.com/2012/12/how-to-determine-location-of-binary.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-vNK8NPulOeM/UNSWHvQ5u5I/AAAAAAAABJE/2BxZhTMhdPg/s1600/Which-Command-Tootips.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="283" src="http://4.bp.blogspot.com/-vNK8NPulOeM/UNSWHvQ5u5I/AAAAAAAABJE/2BxZhTMhdPg/s400/Which-Command-Tootips.png" width="400" /></a></div><br /><div style="text-align: justify;">When you install an application in Linux, the system usually put the executable binary &nbsp;in the <code class="Highlight">/usr/bin/</code> directory, but some applications might choose another directory to place the executable in.<br /><a name='more'></a></div><div style="text-align: justify;"><br /></div><div class="tip-box"><div class="tip-arrow"></div><div class="tip-icon"><div></div></div><div class="tip"><div style="text-align: justify;">So if you want to know where the executable of an application resides, you can use the <code class="Highlight">which</code> command:<br /><br /></div><div class="code-wrapper"><pre class="code-container"><code>which lightdm</code></pre></div><br /><div style="text-align: justify;">The command mentioned above will output the location of the executable binary of <code class="Highlight">lightdm</code> which is:</div><br /><div class="code-wrapper"><pre class="code-container"><code>/usr/sbin/lightdm</code></pre></div><br /><h3 style="text-align: left;"><span style="color: #cc0000;">Another Command:</span></h3><div><span style="color: #cc0000;"><br /></span></div><div style="text-align: justify;">In case you want to get more information about an application, you can use the <code class="Highlight">whereis</code> command which is designed to locate the binary/source and manual sections of a given application:<br /><br /></div><div class="code-wrapper"><pre class="code-container"><code>whereis gimp</code></pre></div><br />The result of the aforementioned command will be:<br /><br /><div class="code-wrapper"><pre class="code-container"><code>gimp: /usr/bin/gimp /etc/gimp /usr/lib/gimp /usr/bin/X11/gimp /usr/share/gimp /usr/share/man/man1/gimp.1.gz</code></pre></div><br /><br /></div></div></div>

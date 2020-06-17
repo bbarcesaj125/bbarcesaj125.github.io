@@ -1,0 +1,18 @@
+---
+layout: post
+title: How To Make VLC Remember The Position Of The Last Played Video [How To]
+date: '2013-11-06T19:26:00.001+01:00'
+author: bbarcesaj
+tags:
+- Ubuntu
+- Windows
+- Multimedia
+- Video
+- Howto
+modified_time: '2013-12-21T17:57:20.534+01:00'
+thumbnail: http://2.bp.blogspot.com/-x9u3Aq8Dkxg/Unp3m06XjLI/AAAAAAAACJU/jQn3H2VGj7U/s72-c/Vlc-Remember-Position-Last-Played-Video-Tootips.png
+blogger_id: tag:blogger.com,1999:blog-8900647196714997279.post-7520401519245098377
+blogger_orig_url: http://www.tootips.com/2013/11/how-to-make-vlc-remember-position-of.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-x9u3Aq8Dkxg/Unp3m06XjLI/AAAAAAAACJU/jQn3H2VGj7U/s1600/Vlc-Remember-Position-Last-Played-Video-Tootips.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="230" src="http://2.bp.blogspot.com/-x9u3Aq8Dkxg/Unp3m06XjLI/AAAAAAAACJU/jQn3H2VGj7U/s400/Vlc-Remember-Position-Last-Played-Video-Tootips.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: justify;">If you own an Android device (e.g. tablet), <b>chances are that you are familiar with the <i>auto-remember </i>feature that comes enabled by default in many popular video players including MX player</b>. This feature allows you to automatically remember the position of the last played video, so that you don't have to guess where you stopped your last video playback each time you reopen your video file.</div><a name='more'></a><br /><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">The default installation of VLC doesn't include such a feature. However, you can easily achieve similar result using the <a href="http://vlcsrposplugin.sourceforge.net/">VLC Srpos plugin</a>.</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">To install the <b>Srpos</b> plugin, you will have to compile it from the source code. To do that, &nbsp;first download the source code (<a href="http://sourceforge.net/projects/vlcsrposplugin/files/">HERE</a>), then issue the following commands in a terminal:</div><div class="separator" style="clear: both;"><br /></div><pre class="Highlight"><code>sudo apt-get install libvlc-dev<br />cd ~/Downloads<br />tar -zxvf libsrpos_plugin-0.3.tar.gz<br />cd libsrpos_plugin-0.3<br />./configure<br />make<br />make install</code></pre><div class="separator" style="clear: both; text-align: justify;"><br /></div>To activate the plugin, do the following:<br /><br /><ol style="text-align: left;"><li>Start VLC</li><li>Open the preferences window</li><li>Select "All" in "Show Settings" (i.e. advanced settings mode)</li><li>Go to Interface ==&gt; Control Interfaces</li><li>Activate "Save/Restore position of the last played files"</li><li>Restart VLC</li></ol><div>That is all there is to it. From now on, VLC will remember the position of the last video playback for you :)</div><br /><br /></div>
