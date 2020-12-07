@@ -13,6 +13,12 @@ modified_time: '2013-02-12T18:09:36.461+01:00'
 thumbnail: http://2.bp.blogspot.com/-LCoCwBCm3pw/URpuK4eenmI/AAAAAAAABqI/JqGebRNSSjk/s72-c/Man2PDF-Tootips.png
 blogger_id: tag:blogger.com,1999:blog-8900647196714997279.post-826157559865616875
 blogger_orig_url: http://www.tootips.com/2013/02/how-to-convert-man-pages-to-pdf-files.html
+excerpt: "How To Save Manual Pages As PDF Files."
+header:
+  teaser: http://2.bp.blogspot.com/-LCoCwBCm3pw/URpuK4eenmI/AAAAAAAABqI/JqGebRNSSjk/s1600/Man2PDF-Tootips.png
+  overlay_image: "/images/posts/2013-02-12-how-to-convert-man-pages-to-pdf-files.webP"
+  overlay_filter: rgba(0, 255, 55, 0.4), rgba(9, 105, 17, 0.78)
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 <div dir="ltr" style="text-align: left;" trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-LCoCwBCm3pw/URpuK4eenmI/AAAAAAAABqI/JqGebRNSSjk/s1600/Man2PDF-Tootips.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="243" src="http://2.bp.blogspot.com/-LCoCwBCm3pw/URpuK4eenmI/AAAAAAAABqI/JqGebRNSSjk/s400/Man2PDF-Tootips.png" width="400" /></a></div><br /><div style="text-align: justify;">Manual pages are a great resource of information for those of you who rely on the command-line to perform their daily tasks. However, reading a manual page inside the terminal could become a tedious task especially if you are dealing with complex commands.<br /><a name='more'></a></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Saving a manual page as PDF file has many advantages such improving readability, providing an easy way to access the page ...</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In order to save a manual page as a PDF file, you need to install the following package:</div><div style="text-align: justify;"><br /><div class="code-wrapper"><pre class="code-container"><code>sudo apt-get install ghostscript</code></pre></div><br />To convert a manual page to a PDF document, simply run the following command in a terminal:<br /><br /><div class="code-wrapper"><pre class="code-container"><code>man -t &lt;MANPAGE&gt; | ps2pdf - &lt;MANPDF&gt;</code></pre></div><br /><div style="text-align: right;"><span style="font-size: x-small;"><i>Via <a href="https://wiki.archlinux.org/index.php/Man_Page#Viewing_man_pages_as_PDFs" target="_blank">ArchWiki</a></i></span></div></div></div>

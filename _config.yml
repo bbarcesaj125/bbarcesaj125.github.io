@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "en-US"
 title: "Tootips - Sotware tips & Reviews!"
 title_separator: "|"
-subtitle: "Tips about open source applications" # site tagline that appears below site title in masthead
+subtitle: "Tootips = too many tips about open source applications" # site tagline that appears below site title in masthead
 name: "Yusuf Felly"
 description: "Software Tips & Reviews"
 url: "https://bbarcesaj125.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -75,7 +75,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: # Open Graph/Twitter default site image
+og_image: "/assets/images/Logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -93,8 +93,8 @@ analytics:
 # Site Author
 author:
   name: "Yusuf Felly"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
+  avatar: "/assets/images/Avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Looking for the small things that make the biggest change :)"
   location: "France"
   email:
   links:
