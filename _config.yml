@@ -51,9 +51,9 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: lunr # lunr (default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -122,13 +122,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "http://twitter.com/tootips"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "http://www.facebook.com/tootips"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/bbarcesaj125"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -269,3 +269,10 @@ defaults:
       comments: true # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

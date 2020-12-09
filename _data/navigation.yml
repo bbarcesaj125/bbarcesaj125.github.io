@@ -1,0 +1,19 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Reviews"
+    url: /tags/#review
+  - title: "HowTo"
+    url: /tags/#howto
+  - title: "Contact"
+    url: /p/contact-us.html
+  - title: "Submit a Tip"
+    url: /p/submit-a-tip.html
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/

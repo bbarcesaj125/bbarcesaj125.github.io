@@ -1,0 +1,8 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint",
+    "editor.formatOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "/home/yusarch/.local/share/virtualenvs/scripts-mxwZ6Ass/bin/python"
+
+}
