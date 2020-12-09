@@ -9,7 +9,7 @@ We are migrating our blog to Jekyll. For those of you who don't know Jekyll, it 
 It is also used by **Github Pages**.
 As I said, in the last couple of days, I was migrating the entire _Tootips_ website from Blogger to Jekyll. As you may have guessed, the transition process was mostly seemless although I had to write a Python script to batch process all my Blogger posts so that they will display correctly using the new Jekyll theme.
 
-The rest of this post represents the Jekyll's welcome post that gets created with every new Jekyll instalation. I could have deleted it, but I preferred to keep it to serve as a reminder of this new milestone of _Tootips_.
+The rest of this post represents the Jekyll's welcome post that gets created with every new Jekyll installation. I could have deleted it, but I preferred to keep it to serve as a reminder of this new milestone of _Tootips_.
 
 --
 
