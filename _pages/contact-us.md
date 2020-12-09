@@ -1,10 +1,9 @@
 ---
 layout: single
 title: Contact Us
-date: "2012-05-16T20:37:00.003+02:00"
+date: "2020-12-09T18:02:37.292402+01:00"
 author: bbarcesaj
 permalink: "/p/:basename:output_ext"
-modified_time: "2020-12-09T18:02:37.292402+01:00"
 description: "Contact us by email."
 ---
 

@@ -1,10 +1,9 @@
 ---
 layout: single
 title: Submit a Tip
-date: "2012-05-19T20:37:00.003+02:00"
+date: "2020-12-09T18:05:49.417304+01:00"
 author: bbarcesaj
 permalink: "/p/:basename:output_ext"
-modified_time: "2020-12-09T18:05:49.417304+01:00"
 description: "Submit a tip!"
 ---
 
