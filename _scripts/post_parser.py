@@ -10,7 +10,7 @@ from urllib.error import URLError, HTTPError
 This is a one-time script that automatically parse imported posts from Blogger. It does the following:
     - It converts Blogger thumbnail links into full size image links using regular expressions (of course xD)
     - It inserts those full size image links as teaser images into their respective posts
-    - It performs some ImageMagick trickery one these full size images to create fancy header images for every posts
+    - It performs some ImageMagick trickery on these full size images to create fancy header images for every posts
 """
 
 
