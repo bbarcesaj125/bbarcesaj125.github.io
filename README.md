@@ -16,6 +16,7 @@ The script does the following:
 - It performs some ImageMagick trickery on these full size images to create fancy header images for every posts
 
 The **ImageMagick** part of the script takes a post image like this:
+
 [![Post image sample][2]][1]
 
 [1]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
@@ -26,11 +27,11 @@ It then combines it with this background image:
 [![Background image][2]][1]
 
 [1]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
-[2]: /assets/images/background-pattern.webP "background image"
+[2]: /assets/images/background-pattern.webP?raw=true "background image"
 
 The final result is a nice looking large image which can be used as a header image:
 
 [![Header image][2]][1]
 
 [1]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
-[2]: /assets/images/post-header-image-example.webP "header image"
+[2]: /assets/images/post-header-image-example.webP?raw=true "header image"
