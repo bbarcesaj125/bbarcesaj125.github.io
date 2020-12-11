@@ -24,16 +24,14 @@ The **ImageMagick** part of the script takes a post image like this:
 
 It then combines it with this background image:
 
-[![Background image][2]][1]
+[![Background image][4]][3]
 
-[1]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
-[2]: /assets/images/background-pattern.webP?raw=true "background image"
+[3]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
+[4]: /assets/images/background-pattern.webP?raw=true "background image"
 
 The final result is a nice looking large image which can be used as a header image:
 
-[![Header image][2]][1]
+[![Header image][6]][5]
 
-[1]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
-[2]: /assets/images/post-header-image-example.webP?raw=true "header image"
-
-![layout examples](/assets/images/post-header-image-example.webP?raw=true)
+[5]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
+[6]: /assets/images/post-header-image-example.webP?raw=true "header image"
