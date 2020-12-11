@@ -35,3 +35,5 @@ The final result is a nice looking large image which can be used as a header ima
 
 [1]: https://tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html
 [2]: /assets/images/post-header-image-example.webP?raw=true "header image"
+
+![layout examples](/assets/images/post-header-image-example.webP?raw=true)
