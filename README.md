@@ -6,7 +6,7 @@ This repository hosts the source code of **[tootips.com](https://www.tootips.com
 This installation uses a forked version of the notorious **[Minimal Mistakes'](https://github.com/bbarcesaj125/minimal-mistakes) Jekyll theme**.
 
 During the migration process, I used the builtin Jekyll Blogger importer to import my old posts from the Blogger platform to Jekyll.
-I also wrote a python script `post_parse.py` to batch process the imported Blogger posts so that they will be compatible with the new theme. You can find this script in the `_scripts` directory.
+I also wrote a python script `post_parser.py` to batch process the imported Blogger posts so that they will be compatible with the new theme. You can find this script in the `_scripts` directory.
 
 The script does the following:
 
