@@ -24,10 +24,10 @@ blogger_orig_url: http://www.tootips.com/2012/05/deluge-lightweight-bittorrent-c
 ---
 ```
 
-While this might work for most people, there are however some use cases where you need to edit every imported post to add customizations like a header image or a meta description etc
-In these cases, you left with two choices: either you edit every post manually to include the desired changes, which can become quite a burden, especially if you have hundreds of posts, or you could take the lazy approach and write a little program or script to automate the whole process. Personally, I chose the latter approach because I can xD
+While this might work for most people, there are however some use cases where you need to edit every imported post to add customizations like a header image or a meta description etc.
+In these cases, you are left with two choices: either you edit every post manually to include the desired changes, which can become quite a burden, especially if you have hundreds of posts, or you could take the lazy approach and write a little program or script to automate the whole process. Personally, I chose the latter, why? Well, because I can xD
 
-As I explained in this repository's `README.md` file, the script `post-parser.py` does the following:
+As I explained in this repository's [`README.md`](../README.md) file, the script `post-parser.py` does the following:
 
 - It converts Blogger thumbnail links into full size image links using regular expressions (of course xD)
 - It inserts those full size image links as teaser images into their respective posts
