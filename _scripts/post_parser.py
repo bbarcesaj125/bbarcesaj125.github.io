@@ -51,10 +51,12 @@ def write_teaser_image(file):
             elif line.startswith("blogger_orig_url"):
                 post_link = line.replace("blogger_orig_url: ", "")
                 excerpt = get_post_description(post_link)
+            else:
+                header_image_link = None
 
         # Defaulting to /assets/teaser.png in case the post has no thumbnail link
         header_image_link_final = header_image_link.rstrip(
-        ) if header_image_link else "/assets/teaser.png"
+        ) if header_image_link else " /assets/teaser.png"
 
         sed_command = sed_base_command_1 + '"' + excerpt + '"' + sed_base_command_2 + header_image_link_final + sed_base_command_3 + \
             sed_base_command_4 + sed_base_command_5 + "' " + file
@@ -65,11 +67,12 @@ def write_teaser_image(file):
     # output, error = process.communicate()
     # print(output, error)
 
-    # Invoking download_post_image() to save the images to the /scripts/images/download/ folder
-    saved_img_name = download_post_image(header_image_link, basename)
+    if header_image_link:
+        # Invoking download_post_image() to save the images to the /scripts/images/download/ folder
+        saved_img_name = download_post_image(header_image_link_final, basename)
 
-    # Using imagemagick() to create fancy header images
-    imagemagick(saved_img_name, basename)
+        # Using imagemagick() to create fancy header images
+        imagemagick(saved_img_name, basename)
 
 
 def get_post_description(post_link):
