@@ -52,7 +52,11 @@ def write_teaser_image(file):
                 post_link = line.replace("blogger_orig_url: ", "")
                 excerpt = get_post_description(post_link)
 
-        sed_command = sed_base_command_1 + '"' + excerpt + '"' + sed_base_command_2 + header_image_link.rstrip() + sed_base_command_3 + \
+        # Defaulting to /assets/teaser.png in case the post has no thumbnail link
+        header_image_link_final = header_image_link.rstrip(
+        ) if header_image_link else "/assets/teaser.png"
+
+        sed_command = sed_base_command_1 + '"' + excerpt + '"' + sed_base_command_2 + header_image_link_final + sed_base_command_3 + \
             sed_base_command_4 + sed_base_command_5 + "' " + file
         print(f"The bash command is {sed_command}")
         subprocess.Popen(sed_command,
@@ -62,10 +66,10 @@ def write_teaser_image(file):
     # print(output, error)
 
     # Invoking download_post_image() to save the images to the /scripts/images/download/ folder
-    #saved_img_name = download_post_image(header_image_link, basename)
+    saved_img_name = download_post_image(header_image_link, basename)
 
     # Using imagemagick() to create fancy header images
-    #imagemagick(saved_img_name, basename)
+    imagemagick(saved_img_name, basename)
 
 
 def get_post_description(post_link):
@@ -160,8 +164,3 @@ def imagemagick(image_name, basename):
 
 if __name__ == "__main__":
     get_links()
-    # get_post_description("http://www.tootips.com/2015/02/tox-distributed-and-secure-p2p-instant.html")
-    #download_post_image("http://4.bp.blogspot.com/-v4zkhGfqo5Y/UQrLHbNkEQI/AAAAAAAABkI/GNNngyIU21I/s1600/Evince-Running-Inside-Chromium-Tootips.png", "hshshkdkdkdkshs")
-
-    #imagemagick("./images/download/2012-05-26-anki-spaced-repitition-memory-program.png", "lololololo")
-    # write_teaser_image("../_posts/2012-12-07-how-to-remove-disabled-on-upgrade-to.html")
