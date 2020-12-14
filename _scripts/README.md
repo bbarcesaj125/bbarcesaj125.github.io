@@ -75,3 +75,21 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 ```
+
+## Dependencies
+
+The Python dependencies are included in the [`Pipfile`](./Pipfile). As you see in this file, the only required dependency is `BeautifulSoup4`.
+Since this script uses **ImageMagick** to process the images, you will need to install that too.
+
+## Usage
+
+First, create a directory at the root of your Jekyll project, then put `post_parser.py` in it. In my example, I created a directory called `_scripts`. You can use any name you like.
+After that, you need to install the dependencies listed above. To install the Python dependencies, you can use the following commands:
+
+```
+$ cd ./_scripts
+$ pip install or pipenv install
+```
+
+Next, you need to install **ImageMagick**. To do that, you can use your distribution package manager as **ImageMagick** is included in all the major distributions' official repositories.
+Finally, you can invoke the script just like you would do with any Python script. I highly recommend that you back up your `_posts` directory before using this script, so that you can easily restore your posts in case something goes wrong.
