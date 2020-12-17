@@ -5,7 +5,7 @@ date: 2020-06-17 22:53:17 +0200
 categories: jekyll update
 ---
 
-We are migrating our blog to Jekyll. For those of you who don't know Jekyll, it is one of the most popular static website generator on the Internet.
+We are migrating our blog to Jekyll. For those of you who don't know Jekyll, it is one of the most popular static website generators on the Internet.
 It is also used by **Github Pages**.
 As I said, in the last couple of days, I was migrating the entire _Tootips_ website from Blogger to Jekyll. As you may have guessed, the transition process was mostly seemless although I had to write a Python script to batch process all my Blogger posts so that they will display correctly using the new Jekyll theme.
 
