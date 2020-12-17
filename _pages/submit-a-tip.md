@@ -10,8 +10,6 @@ description: "Submit a tip!"
 <div dir="ltr" style="text-align: left;" trbidi="on">
 <div style="text-align: justify;">
 While we try to give you useful tips and reviews, we can't deny the fact that our readers have something worthwhile to offer, so if you have a tip, please don't hesitate to share it with us:<br />
-<br />
-<br />
-<script type="text/javascript"> id = 153684; clr = "fafafa"; </script><script src="http://kontactr.com/wp.js" type="text/javascript"></script>
+<script type="text/javascript"> id = 153684; clr = "fafafa"; </script><script src="https://kontactr.com/wp.js" type="text/javascript"></script>
 </div>
 </div>
