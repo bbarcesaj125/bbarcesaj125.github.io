@@ -30,6 +30,6 @@ facebook.com
 
 That's it! The next time you visit Facebook, you will be presented with this beautiful `µBlock` screen:
 
-![µBlock Facebook Block Screen](images/posts/bye-social-media-welcome-rss-facebook-ublock.webP)
+![µBlock Facebook Block Screen](/images/posts/bye-social-media-welcome-rss-facebook-ublock.webP)
 
 This simple hack will act as both a psychological barrier as well as reminder that you should spend your precious time elsewhere :)
