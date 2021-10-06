@@ -21,7 +21,7 @@ title_separator: "|"
 subtitle: "Tootips = too many tips about open source applications" # site tagline that appears below site title in masthead
 name: "Yusuf Felly"
 description: "Software Tips & Reviews"
-url: "https://bbarcesaj125.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://tootips.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "bbarcesaj125/bbarcesaj125.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: "/assets/images/mitchell-griest-ia_cqE5Dplk-unsplash.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -87,7 +87,7 @@ social:
 analytics:
   provider: google-gtag # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: "G-LGLWN4N0DY"
+    tracking_id: "G-FE9BRNDQ2M"
     anonymize_ip: # true, false (default)
 
 # Site Author
